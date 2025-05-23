@@ -8,7 +8,7 @@ This project demonstrates a Python algorithm developed to manage access control 
 ## Step 1: Open the File That Contains the Allow List
 
 ```python
-import_file = "allow_list.txt"
+import_file = "allow_list.txt" #["192.168.1.2", "192.168.1.10", "10.0.0.5", "172.16.0.1", "172.16.0.3"]
 with open(import_file, 'r') as file:
     ip_addresses = file.read()
 ````
@@ -77,7 +77,7 @@ with open(import_file, 'w') as file:
 ## Complete Python Code
 
 ```python
-import_file = "allow_list.txt"
+import_file = "allow_list.txt" #["192.168.1.2", "192.168.1.10", "10.0.0.5", "172.16.0.1", "172.16.0.3"]
 
 remove_list = [
     "192.168.1.10",
